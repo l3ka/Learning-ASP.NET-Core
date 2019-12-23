@@ -27,7 +27,7 @@ namespace AccountOwnerServer.Controllers
             _logger.LogWarn("Here is warn message from the controller");
             _logger.LogError("Here is errormessage from the controller");
 
-            return new string[] { "value1", "value2" };
+            return new string[] { "WeatherForecastController1", "WeatherForecastController2" };
         }
     }
 }
